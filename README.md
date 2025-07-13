@@ -35,3 +35,62 @@ An AI-powered interactive assistant that helps you **summarize, understand, and 
 
 ## 📁 Project Structure
 
+smart-assistant/
+│
+├── app.py # Main Streamlit app
+├── UI/
+│ ├── styles.css # Custom UI styling
+│ └── assistant.html # Animated assistant graphic
+│
+├── modules/
+│ ├── document_loader.py # Handles PDF/TXT reading
+│ ├── summarizer.py # Generates summaries
+│ ├── question_answering.py # Answers questions using LLMs
+│ ├── challenge_mode.py # Challenge questions generation & checking
+│ └── evaluate_response.py # Model vs ground-truth comparison
+│
+├── requirements.txt # Python dependencies
+├── README.md # Project documentation
+└── screenshots/ # UI images (optional)
+
+
+---
+
+## 🛠️ Setup Instructions
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/jauwaad0786/Smart-Assistant-for-Research-Summarization.git
+cd Smart-Assistant-for-Research-Summarization
+
+# 2. Create virtual environment
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Run the app
+streamlit run app.py
+
+🧩 Upcoming Enhancements
+🔗 Chat-like interface with conversation history
+
+🌍 Multilingual support
+
+📚 Memory-based learning model
+
+🧠 GPT-style interactive tutor
+
+📥 Google Drive & Notion integrations
+
+📊 Analytics dashboard
+
+🤝 Contributing
+Contributions are welcome!
+Feel free to fork the repo, create a feature branch, and submit a pull request.
+
+📧 Contact
+Jauwaad Bin Irshad
+📫 Email: shaikhjauwaad@gmail.com
+🔗 GitHub: @jauwaad0786
