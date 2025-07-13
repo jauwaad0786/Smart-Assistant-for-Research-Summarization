@@ -1,0 +1,175 @@
+/* Background and App Styling */
+body, .stApp {
+    background: linear-gradient(135deg, #e0ecff, #ffffff);
+    background-size: cover;
+    color: #333;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Sidebar Panel */
+.sidebar-panel {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 260px;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    padding: 2rem 1.5rem;
+    z-index: 999;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-panel h2 {
+    font-size: 22px;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid white;
+    padding-bottom: 0.5rem;
+}
+
+.sidebar-panel .step {
+    margin-bottom: 2rem;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffd700;
+}
+
+/* Main Content Area */
+.main-content {
+    margin-left: 280px;
+    padding: 2rem;
+}
+
+/* Assistant Illustration */
+.assistant-avatar {
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    width: 120px;
+    z-index: 998;
+    animation: readingMotion 5s ease-in-out infinite;
+    opacity: 0.95;
+}
+
+@keyframes readingMotion {
+    0% { transform: scale(1) rotate(0deg); }
+    25% { transform: scale(1.05) rotate(-1deg); }
+    50% { transform: scale(1.1) rotate(1deg); }
+    75% { transform: scale(1.05) rotate(-1deg); }
+    100% { transform: scale(1) rotate(0deg); }
+}
+
+/* Animated Welcome Banner (One Line) */
+.animated-banner {
+    font-size: 38px;
+    text-align: center;
+    font-weight: 800;
+    color: #1e3c72;
+    margin-bottom: 30px;
+    animation: float 4s ease-in-out infinite;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-6px); }
+}
+
+.sparkle {
+    animation: sparkle 1.8s infinite;
+    color: gold;
+    display: inline-block;
+    font-size: 40px;
+    padding: 0 8px;
+}
+
+@keyframes sparkle {
+    0%, 100% { opacity: 0.2; transform: scale(0.8); }
+    50% { opacity: 1; transform: scale(1.3); }
+}
+
+/* Typography */
+h1, h2, h3, h4 {
+    color: #1e3c72;
+    font-weight: bold;
+}
+
+p, li, label, textarea, input {
+    font-size: 18px !important;
+    color: #333 !important;
+}
+
+/* Default Button Styling */
+.stButton>button {
+    background-color: #1e3c72;
+    color: white;
+    border-radius: 10px;
+    padding: 0.6rem 1.5rem;
+    font-weight: bold;
+    border: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    background-color: #2a5298;
+    transform: scale(1.05);
+}
+
+/* Custom Button: Get Answer (Yellow) */
+button[data-testid="button-answer_btn"] {
+    background-color: #ffd700 !important;  /* Bright Yellow */
+    color: #000 !important;                /* Black Text */
+    border-radius: 10px;
+    padding: 0.6rem 1.5rem;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+}
+
+button[data-testid="button-answer_btn"]:hover {
+    background-color: #ffcc00 !important;
+    transform: scale(1.05);
+}
+
+/* Glassy Box Style */
+.glass-box {
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Result Boxes */
+.result-box {
+    background-color: rgba(30, 60, 114, 0.1);
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 1rem;
+}
+
+.verdict {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 1rem;
+    color: #d35400;
+}
+
+/* Progress Bar Color */
+.stProgress > div > div > div {
+    background-color: #3498db !important;
+}
+
+/* Summary Text Styling */
+.summary-text {
+    line-height: 1.8;
+    font-size: 17px;
+    padding: 10px;
+}
