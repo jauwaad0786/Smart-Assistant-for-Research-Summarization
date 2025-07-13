@@ -109,4 +109,4 @@ Feel free to fork the repo, create a feature branch, and submit a pull request.
 📧 Contact
 Jauwaad Bin Irshad
 📫 Email: shaikhjauwaad@gmail.com
-🔗 GitHub: @jauwaad0786
+🔗 GitHub: https://github.com/jauwaad0786
