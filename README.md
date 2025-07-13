@@ -60,7 +60,7 @@ smart-assistant/
 
 ## 🛠️ Setup Instructions
 
-```bash
+
 # 1. Clone the repository
 git clone https://github.com/jauwaad0786/Smart-Assistant-for-Research-Summarization.git
 cd Smart-Assistant-for-Research-Summarization
