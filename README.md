@@ -19,6 +19,7 @@ An AI-powered interactive assistant that helps you **summarize, understand, and 
 
 
 <img width="1902" height="1025" alt="Screenshot 2025-07-13 222333" src="https://github.com/user-attachments/assets/3433472f-ffca-47a2-a847-b5a9cff24dd8" />
+<img width="1863" height="961" alt="Screenshot 2025-07-13 223021" src="https://github.com/user-attachments/assets/8c256cda-3353-4357-9143-f98648148660" />
 
 
 ---
