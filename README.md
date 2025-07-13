@@ -34,7 +34,7 @@ An AI-powered interactive assistant that helps you **summarize, understand, and 
 ---
 
 ## 📁 Project Structure
-
+```
 smart-assistant/
 │
 ├── app.py                   # Main Streamlit app
@@ -53,7 +53,9 @@ smart-assistant/
 ├── requirements.txt         # Python dependencies
 ├── README.md                # Project documentation
 └── screenshots/             # UI images (optional)
+```
 
+---
 
 
 
@@ -62,18 +64,26 @@ smart-assistant/
 
 
 # 1. Clone the repository
+```bash
 git clone https://github.com/jauwaad0786/Smart-Assistant-for-Research-Summarization.git
 cd Smart-Assistant-for-Research-Summarization
+```
 
 # 2. Create virtual environment
+```bash
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
+```
 
 # 3. Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 # 4. Run the app
+```bash
 streamlit run app.py
+```
 
 🧩 Upcoming Enhancements
 🔗 Chat-like interface with conversation history
