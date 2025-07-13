@@ -37,7 +37,7 @@ An AI-powered interactive assistant that helps you **summarize, understand, and 
 
 smart-assistant/
 │
-├── app.py                    # Main Streamlit app
+├── app.py                    # Main Streamlit app                     
 │
 ├── UI/
 │   ├── styles.css            # Custom UI styling
