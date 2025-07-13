@@ -89,7 +89,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-# 5. 🧩 Upcoming Enhancements
+## 🧩 Upcoming Enhancements
 🔗 Chat-like interface with conversation history
 
 🌍 Multilingual support
