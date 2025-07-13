@@ -102,11 +102,11 @@ streamlit run app.py
 
 📊 Analytics dashboard
 
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome!
 Feel free to fork the repo, create a feature branch, and submit a pull request.
 
-📧 Contact
+## 📧 Contact
 Jauwaad Bin Irshad
 📫 Email: shaikhjauwaad@gmail.com
 🔗 GitHub: https://github.com/jauwaad0786
