@@ -110,3 +110,7 @@ Feel free to fork the repo, create a feature branch, and submit a pull request.
 Jauwaad Bin Irshad
 📫 Email: shaikhjauwaad@gmail.com
 🔗 GitHub: https://github.com/jauwaad0786
+
+## 🔥 Project Demo
+
+[📽️ Watch Project Demo Video](https://drive.google.com/file/d/1zHKogFy4ygmZBV0eCfrBIlpsBpAZhKoc/view?usp=sharing)
