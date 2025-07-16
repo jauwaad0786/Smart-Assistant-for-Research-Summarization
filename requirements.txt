@@ -9,3 +9,4 @@ rouge-score
 bert-score
 openai>=1.3.5
 langchain
+python-dotenv
